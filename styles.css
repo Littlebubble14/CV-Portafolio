@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?familia=Poppins:wght@400; 500; 600; 700; 800&family=Raleway:wght@400; 500; 600; 700; 800&display=swap');
+
+.narvar{
+    background-color: #ffffff;
+}
+
+body{
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background: #3a3f3b;
+}
+
+
+#imagenPortafolio{
+    width: 455px;
+    align-items: center;
+}
+
+#imagenPerfil{
+    width: 300px;
+}
+
+    
+header h1 {
+    font-size: 32px;
+    margin: 0;
+}
+    
+header h2 {
+    font-size: 24px;
+    margin: 0;  
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#buttongit{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: rgb(72, 147, 85);
+}
+    
+#buttonportafolio {
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    color: white;
+}
+
+
+footer{
+    background-color: #333;
+    text-decoration: none;
+    color: white;
+}
