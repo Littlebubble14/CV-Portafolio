@@ -11,9 +11,8 @@ body{
     background: #3a3f3b;
 }
 
-
 #imagenPortafolio{
-    width: 455px;
+    width: 650px;
     align-items: center;
 }
 
@@ -33,7 +32,7 @@ header h2 {
 }
 
 section {
-    margin-bottom: 20px;
+    
 }
 
 #buttongit{

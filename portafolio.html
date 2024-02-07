@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <style>
+        /* Estilos generales */
+    
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #515151;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #333;
+            font-family: 'Raleway', sans-serif;
+            text-align: center;
+            font-size: 2.5em;
+            padding: 2rem 0;
+            background-color: #77bf0b;
+            color: rgb(255, 255, 255);
+            text-shadow: 2px 2px 4px rgba(67, 105, 88, 0.888);
+        }
+
+        h2 {
+            color: #000000;
+            
+        }
+
+        /* Button Volver*/
+        .txt{
+            text-decoration: none;
+            color: white;
+        }
+
+        /* Tabla */
+        .tableportafolio {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+        }
+        .tableportafolio td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 1rem;
+            text-align: center;
+            border: 3px solid; color: #729e2e;
+        }
+
+        /* Imágenes */
+        #curriculum-vitae {
+            width: 400px;
+        }
+        #landing-page {
+            width: 400px;
+        }
+        #iguana-page {
+            width: 400px;
+        }
+        #cuppon {
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="tittleportafolio">Mi Portafolio</h1>
+
+    <button class="btn btn-lg btn-outline-info text-light me-4"style="background-color:green ; border-color: green ">
+        <a href="index.html" class="bread-black">
+            <i class="fa fa-angle-left" aria-hidden="true"></i> 
+          <span class="txt"><h6>Volver</h6></span>
+        </a>
+    </button>
+
+    <div>
+        <table class="tableportafolio">
+            <tr>
+                <td><h2>Curriculum Vitae</h2></td>
+                <td><img src="asset/img/curriculum-vitae.png" alt="Curriculum-Vitae" id="curriculum-vitae"></td>
+            </tr>
+            <tr>
+                <td><h2>Landing Page</h2></td>
+                <td><img src="asset/img/Landing-page.jpeg" alt="Landing-Page" id="landing-page"></td>
+            </tr>
+            <tr>
+                <td><h2>Iguana Page</h2></td>
+                <td><img src="asset/img/Alineando-con-Flex.jpeg" alt="Alineando-con-Flex" id="iguana-page"></td>
+            </tr>
+            <tr>
+                <td><h2>Cuppon</h2></td>
+                <td><img src="asset/img/Cuppon.jpeg" alt="Cuppon" id="cuppon"></td>
+            </tr>
+        </table>
+    </div>
+
+    
+</body>
+</html>
